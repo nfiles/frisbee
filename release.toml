@@ -1,7 +1,10 @@
 sign-commit = true
 sign-tag = true
-push = false
+tag = true
+push = true
 publish = false
 dev-version = false
+consolidate-commits = false
+consolidate-pushes = true
 tag-name = "{{crate_name}}-v{{version}}"
 pre-release-commit-message = "chore({{crate_name}}): Release {{version}}"
