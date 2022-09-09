@@ -27,3 +27,14 @@ cargo install frisbee
 OR
 cargo install --git https://github.com/nfiles/frisbee.git --branch main
 ```
+
+# Publishing
+
+```sh
+# Publish the crate
+cargo release <level>
+
+# push changes
+git push
+git push --tags
+```
