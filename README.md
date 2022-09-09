@@ -19,3 +19,11 @@ https://rocket.rs/v0.5-rc/guide/configuration/
 
 ROCKET_PORT=80 frisbee
 ```
+
+# Install
+
+```sh
+cargo install frisbee
+OR
+cargo install --git https://github.com/nfiles/frisbee.git --branch main
+```
