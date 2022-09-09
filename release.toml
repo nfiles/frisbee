@@ -8,3 +8,4 @@ consolidate-commits = false
 consolidate-pushes = true
 tag-name = "{{crate_name}}-v{{version}}"
 pre-release-commit-message = "chore({{crate_name}}): Release {{version}}"
+allow-branch = ["main"]
