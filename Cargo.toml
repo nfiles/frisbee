@@ -1,8 +1,18 @@
 [package]
 name = "frisbee"
 version = "0.1.0"
+authors = ["Nathan Files <nathanwfiles@gmail.com>"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/nfiles/frisbee"
+keywords = ["dev", "web", "server", "filesystem"]
+categories = ["server"]
+license = "MIT"
+description = "simple tool for serving files from disk"
 
 [dependencies]
+rocket = "0.5.0-rc.2"
+clap = { version = "^3.2", features = ["derive"] }
+
+[profile.release]
+# Tell `rustc` to optimize for small code size.
+opt-level = "s"
