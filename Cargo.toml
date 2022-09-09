@@ -5,7 +5,7 @@ authors = ["Nathan Files <nathanwfiles@gmail.com>"]
 edition = "2021"
 repository = "https://github.com/nfiles/frisbee"
 keywords = ["dev", "web", "server", "filesystem"]
-categories = ["server"]
+categories = ["command-line-utilities", "web-programming", "web-programming::http-server"]
 license = "MIT"
 description = "simple tool for serving files from disk"
 
